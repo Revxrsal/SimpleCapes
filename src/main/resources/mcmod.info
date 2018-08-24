@@ -1,0 +1,16 @@
+[
+{
+  "modid": "simplecapes",
+  "name": "Simple Capes",
+  "description": "A mod which adds a cape to the player.",
+  "version": "${version}",
+  "mcversion": "${mcversion}",
+  "url": "http://www.github.com/ReflxctionDev/SimpleCapes",
+  "updateUrl": "",
+  "authorList": ["Reflxction"],
+  "credits": "Reflxction",
+  "logoFile": "",
+  "screenshots": [],
+  "dependencies": []
+}
+]
