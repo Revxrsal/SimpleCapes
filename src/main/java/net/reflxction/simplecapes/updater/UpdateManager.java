@@ -50,7 +50,7 @@ public class UpdateManager {
         boolean success = true;
         try {
             File modsDirectory = new File(Minecraft.getMinecraft().mcDataDir, "mods");
-            File modFile = new File(modsDirectory, "AutoImpurity-1.1.jar");
+            File modFile = new File(modsDirectory, "SimpleCapes-1.0-SNAPSHOT.jar");
             if (modFile.exists() && modFile.delete()) {
                 if (modFile.createNewFile()) {
                     URL updateURL = new URL(getDownloadLink());

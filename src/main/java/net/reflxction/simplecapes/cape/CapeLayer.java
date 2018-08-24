@@ -46,6 +46,7 @@ public class CapeLayer implements LayerRenderer<AbstractClientPlayer> {
     @Override
     public void doRenderLayer(AbstractClientPlayer entity, float limbSwing, float limbSwingAmount, float partialTicks, float ageInTicks, float netHeadYaw, float headPitch, float scale) {
         if (!SimpleCapes.getSettings().isCapeSet()) return;
+        if (!SimpleCapes.getSettings().isEnabled()) return;
         final UUID playerUUID = Minecraft.getMinecraft().getSession().getProfile().getId();
         if (!entity.getPersistentID().equals(playerUUID)) return;
         if (!entity.isInvisible() && entity.isWearing(EnumPlayerModelParts.CAPE)) {

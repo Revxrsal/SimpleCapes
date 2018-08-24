@@ -10,6 +10,13 @@ The mod basically has 3 modes:
 
 ## Commands
 Command: **/simplecapes**. Alias: **/sc**
+* /sc toggle - Toggles the mod
+* /sc check - Toggles whether the mod should check for updates or not
+* /sc update - Updates the mod from the GitHub repository releases
 * /sc url <url> - Sets the cape image from the given URL
 * /sc local \<image name> - Sets the cape image from your machine. The image **must** be in **.minecraft/simplecapes/**. Adding the extension of the image is also required. Refer to the explanation section for more details
 * /sc clipboard - Sets the cape image from your current image clipboard.
+
+## Examples
+* /sc url https://i.imgur.com/2zndJGu.png
+* /sc local mojang.png
